@@ -1,6 +1,6 @@
 # learn-quantaxis
 
-基于QUANTAXIS量化金融策略框架的学习 & 延展
+基于QUANTAXIS量化金融策略框架的学习延展笔记
 
 
 BASE REVIEW | 基本观点

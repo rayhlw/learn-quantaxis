@@ -20,7 +20,7 @@
 
 
 # BASIC SOLUTION ｜ 基础的研发流程
-### 基于jupyterNotebool以及QADataStruct / QAAnalysis / QAIndicator / QAutil模块
+### 基于jupyterNotebook以及QADataStruct / QAAnalysis / QAIndicator / QAutil模块
 
 - 概念/想法产生
     - 一个新的想法依赖于实盘观察/理论推导/交易员经验
@@ -47,7 +47,7 @@
     
     
 - QUANTAXIS实盘/模拟盘 & QAMarket/Broker示意图
-
+![image](https://github.com/rayhlw/learn-quantaxis/blob/master/image/QAMarket:Broker示意图.png)
 
 
 

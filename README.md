@@ -20,7 +20,7 @@
 
 
 # BASIC SOLUTION ｜ 基础的研发流程
-### 基于jupyterNotebool以及QADataStruct / QAAnalysis / QAIndicator / QAutil模块
+### 基于jupyterNotebook以及QADataStruct / QAAnalysis / QAIndicator / QAutil模块
 
 - 概念/想法产生
     - 一个新的想法依赖于实盘观察/理论推导/交易员经验

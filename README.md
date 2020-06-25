@@ -55,8 +55,11 @@
 - QUANTAXIS RELTIME 实盘
 ![image](https://github.com/rayhlw/learn-quantaxis/blob/master/image/QUANTAXIS%20RELTIME%20实盘.png)
 
+- QUANTAXIS 实盘运行架构
+![image](https://github.com/rayhlw/learn-quantaxis/blob/master/image/QUANTAXIS%20实盘运行架构.png)
 
-
+- QUANTAXIS 实盘运行整体框架
+![image](https://github.com/rayhlw/learn-quantaxis/blob/master/image/QUANTAXIS%20RELTIME%20实盘.png)
 
 
 

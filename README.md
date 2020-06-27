@@ -62,8 +62,25 @@
 ![image](https://github.com/rayhlw/learn-quantaxis/blob/master/image/QUANTAXIS%20结构框架.png)
 
 - QAREALTIMECollecer / QAStrategy(行情分发与订阅)
-    - qa-eventmq（QUANTAXIS Message IO）<--> MarketData Handler「tick的数据实时分发与二次分发」
-    - ![image](https://github.com/rayhlw/learn-quantaxis/blob/master/image/QAREALTIMECollecer:QAStrategy流程.png)
+    - 原始状态下的实时策略
+        - For：
+        - （get_XXXX） --> handle（data） --> sangal --> sendorder
+        - time.sleep（5min）
+        - threading
+    - 订阅模式 / 主推模式策略
+        - on_bar/tick
+        - Handle（data） --> signal --> sendorder
+        - qa-eventmq（QUANTAXIS Message IO）<--> MarketData Handler「tick的数据实时分发与二次分发」
+        - ![image](https://github.com/rayhlw/learn-quantaxis/blob/master/image/QAREALTIMECollecer:QAStrategy流程.png)
+    - 优势
+        - 如有100个策略「其中：20 全市场选股 股票策略、20 CTA策略、30 t0策略、30 模拟盘策略」
+        - 每个策略都需要行情驱动
+            - 旧，100个策略同时for循环获取行情
+                - 1.如果API --> 限速
+                - 2.如果是爬虫 --> tps过高 --> 封ip
+            - 新，Mq --> 分发行情
+                - 一次获取 --> 无限个订阅者
+        - 以新的方式可以稳定行情 / 解决在大规模情况下的数据需求问题
 
 
 

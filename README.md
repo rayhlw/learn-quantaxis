@@ -61,13 +61,9 @@
 - QUANTAXIS 实盘运行整体框架
 ![image](https://github.com/rayhlw/learn-quantaxis/blob/master/image/QUANTAXIS%20结构框架.png)
 
-- qa-eventmq（QUANTAXIS Message IO）<--> MarketData Handler「tick的数据实时分发与二次分发」
-    - 生产者 tick
-    - ↓↓↓
-    - Exchange「期货CTPX」 / QAEventMQ --> rabbitmq
-    - ↓↓↓
-    - 消费者 tick2Bar ↗↗↗
-
+- QAREALTIMECollecer / QAStrategy(行情分发与订阅)
+    - qa-eventmq（QUANTAXIS Message IO）<--> MarketData Handler「tick的数据实时分发与二次分发」
+    - ![image](https://github.com/rayhlw/learn-quantaxis/blob/master/image/QAREALTIMECollecer:QAStrategy流程.png)
 
 
 

@@ -269,7 +269,7 @@
 
 - 源数据「当用标普500价值股ETF的高频tick数据时候，做了数据处理工作，过程麻烦又非常重要，因此将这个处理数据的完整过程记录下来」
     - 源数据
-        - 使用*标普500价值股ETF（IVE）tick级别的数据来自一下链接
+        - 使用标普500价值股ETF（IVE）tick级别的数据来自一下链接
         - http://www.kibot.com/free_historical_data.aspx
     - 知识点：指数ETF
         - ETF是EXchange Traded Fund的缩写，交易型开放式指数基金，是一种追踪「标的指数」的基金

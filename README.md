@@ -82,6 +82,9 @@
                 - 一次获取 --> 无限个订阅者
         - 以新的方式可以稳定行情 / 解决在大规模情况下的数据需求问题
 
+- qatrader 模拟盘命令
+    - ‘pip install qatrader'
+    - 'qatrader --acc admin --pwd admin --broker QUANTAXIS'
 
 
 

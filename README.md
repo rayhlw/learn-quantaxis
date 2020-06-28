@@ -85,6 +85,7 @@
 - qatrader 模拟盘命令
     - `pip install qatrader`
     - `qatrader --acc admin --pwd admin --broker QUANTAXIS`
+    - `qatraderserver`
 
 
 
